@@ -4,9 +4,50 @@
 * {
     margin: 0px;
     padding: 0px;
-    font-family: "Playfair Display";
     text-decoration: none;
+    font-family: "Playfair Display";
+    box-sizing: border-box;
+    font-size: 20px
 }
 
-adsdsajdsajasd
-sdaasd
+header {
+    background-color:coral;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 10%;
+}
+
+body {
+    background-color: bisque;
+}
+
+.header .logo {
+    cursor: pointer;
+}
+
+.header .logo img {
+    height: 70px;
+    width: auto;
+    padding: 10px;
+}
+
+.header .logo img:hover{
+    transition: all 0.5;
+}
+
+header .nav-links{
+    list-style: none;
+}
+
+header .nav-links li {
+    display: inline-block;
+    padding: 20px;
+}
+
+
+header .nav-links a{
+    font-size: 700 ;
+    text-decoration: none;
+    color: darkblue;
+}
