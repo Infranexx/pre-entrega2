@@ -1,0 +1,41 @@
+body {
+
+    background-color: #d9d9d9;
+
+    .acordeon {
+        margin: 20px;
+    }
+
+    .parrafo--index {
+        text-align: center;
+        padding: 50px;
+    }
+
+    .carrusel img {
+        width: 300px;
+        height: auto;
+    }
+
+    .parrafo--galeria {
+        text-align: center;
+    }
+
+
+    .imagen--acerca {
+        display: flex;
+        justify-items: center;
+        align-items: center;
+        padding: 50px;
+
+    }
+
+    .emotes {
+        text-align: center;
+        padding: 50px;
+    }
+
+    .emotes h1 {
+        background-color: aqua;
+    }
+
+}
