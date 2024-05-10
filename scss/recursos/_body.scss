@@ -37,5 +37,10 @@ body {
     .emotes h1 {
         background-color: aqua;
     }
-
+}
+section{
+    .grid-emotes{
+        align-self: center;
+        justify-content: center;
+    }
 }

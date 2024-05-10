@@ -36,13 +36,14 @@ body {
   body .emotes h1 {
     background-color: aqua; }
 
+section .grid-emotes {
+  align-self: center;
+  justify-content: center; }
+
 footer {
   background-color: #3C6E71;
   display: flex;
-  justify-content: space-between;
-  align-items: flex-end;
-  position: fixed;
-  bottom: 0; }
+  justify-items: space-between; }
 
 .grid-emotes {
   display: grid;
@@ -72,6 +73,16 @@ footer {
 .div7 {
   grid-area: 3 / 3 / 4 / 4; }
 
+.grid-index {
+  display: grid;
+  grid-template-columns: 1fr 1.1fr;
+  grid-template-rows: 1fr 1fr;
+  gap: 0px 0px;
+  grid-template-areas: ". ." ". .";
+  margin: 50px; }
+  .grid-index img {
+    width: 200px; }
+
 @media (max-width: 768px) {
   .grid-emotes {
     display: grid;
@@ -82,3 +93,6 @@ footer {
     display: grid;
     grid-template-columns: 1fr;
     justify-content: center; } }
+
+section div .emote-1 img:hover {
+  transform: scale(2, 1); }
