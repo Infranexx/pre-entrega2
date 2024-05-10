@@ -35,16 +35,20 @@
 }
 
 .grid-index {
-    display: grid;
-    grid-template-columns: 1fr 1.1fr;
-    grid-template-rows: 1fr 1fr;
-    gap: 0px 0px;
-    grid-template-areas:
-        ". ."
-        ". .";
-    margin: 50px;
+    display: grid; 
+    grid-template-columns: 1fr 1fr 1fr 1fr; 
+    grid-template-rows: 1fr; 
+    gap: 0px 0px; 
+    padding: 100px;
+    grid-template-areas: 
+      "item1 item2 item3 item4"; 
+  }
+  .item1 { grid-area: item1; }
+  .item2 { grid-area: item2; }
+  .item3 { grid-area: item3; }
+  .item4 { grid-area: item4; }
       img {
     width: 200px;
 }  
-}
+
 
