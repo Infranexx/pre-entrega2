@@ -1,8 +1,25 @@
-section {
-    div .emote-1{
-         img:hover{
-            transform: scale(2,1);
-    }
-    }
+.emotes {
+
+    width: 200px; /* Ancho de la imagen */
    
-}
+    height: 200px; /* Alto de la imagen */
+   
+    overflow: hidden; /* Para ocultar el contenido que se salga del contenedor */
+   
+   }
+   
+   img {
+   
+    width: 100%; /* Para que la imagen ocupe todo el contenedor */
+   
+    height: 100%; /* Para que la imagen ocupe todo el contenedor */
+   
+    transition: transform 0.3s ease; /* Transición suave de la propiedad transform */
+   
+   }
+   
+   .emotes:hover img {
+   
+    transform: scale(1.1); /* Agrandar la imagen al 110% */
+   
+   }
