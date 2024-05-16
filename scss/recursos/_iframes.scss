@@ -1,0 +1,21 @@
+.calendar div{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    margin: 20px;
+    overflow: scroll;
+}
+
+.musiquita div{
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    column-gap: 20px;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    margin: 30px;
+}

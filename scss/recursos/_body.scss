@@ -17,7 +17,12 @@ body {
     }
 
     .parrafo--galeria {
-        text-align: center;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        margin: 30px;
+        padding: 30px;
     }
 
 
@@ -26,6 +31,7 @@ body {
         justify-items: center;
         align-items: center;
         padding: 50px;
+        min-height: 100vh;
 
     }
 
@@ -38,35 +44,43 @@ body {
         background-color: aqua;
     }
 }
-section{
-    .grid-emotes{
-        align-self: center;
-        justify-content: center;
-    }
-}
-h1{
+
+h1 {
     padding: 50px
 }
 
-#logo-index{
-    padding: 20px;
-    width: 400px;
-}
 
-#contacto{
+
+#contacto {
     min-height: 100vh;
 }
 
-.formulario{
-      
-display: flex;
-justify-content: center;
-align-self: center;
-flex-wrap: wrap;
-border: 5px solid black;
-padding: 100px;
-margin: 100px; 
-h4{
-font-family: "Lato" ;
+.formulario {
+
+    display: flex;
+    justify-content: space-around;
+    align-self: center;
+    flex-wrap: wrap;
+    border: 5px solid black;
+    padding: 100px;
+    margin: 100px;
+
+    h4 {
+        font-family: "Lato";
+    }
 }
+
+.stream {
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    flex-wrap: wrap;
+    margin: 50px;
+    padding: 50px;
+}
+
+.parrafo--emotes h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }

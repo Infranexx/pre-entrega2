@@ -42,4 +42,8 @@
       .item3 { grid-area: item3; }
       .item4 { grid-area: item4; }
       
+      .calendar div{
+        max-width: 320px;
+      }
+      
     }

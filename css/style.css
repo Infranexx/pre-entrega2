@@ -30,13 +30,19 @@ body .carrusel img {
   height: auto;
 }
 body .parrafo--galeria {
-  text-align: center;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  margin: 30px;
+  padding: 30px;
 }
 body .imagen--acerca {
   display: flex;
   justify-items: center;
   align-items: center;
   padding: 50px;
+  min-height: 100vh;
 }
 body .emotes {
   text-align: center;
@@ -46,18 +52,8 @@ body .emotes h1 {
   background-color: aqua;
 }
 
-section .grid-emotes {
-  align-self: center;
-  justify-content: center;
-}
-
 h1 {
   padding: 50px;
-}
-
-#logo-index {
-  padding: 20px;
-  width: 400px;
 }
 
 #contacto {
@@ -66,7 +62,7 @@ h1 {
 
 .formulario {
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
   align-self: center;
   flex-wrap: wrap;
   border: 5px solid black;
@@ -77,13 +73,28 @@ h1 {
   font-family: "Lato";
 }
 
+.stream {
+  display: flex;
+  justify-content: center;
+  align-self: center;
+  flex-wrap: wrap;
+  margin: 50px;
+  padding: 50px;
+}
+
+.parrafo--emotes h1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 footer {
   background-color: #ececec;
   border-radius: 20px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
   padding: 1px 1px;
   margin: 0 auto;
-  max-width: 900px;
+  max-width: 800px;
 }
 footer .redes {
   display: flex;
@@ -181,6 +192,48 @@ footer img {
   .item4 {
     grid-area: item4;
   }
+  .calendar div {
+    max-width: 320px;
+  }
+}
+.infra-enojado img:hover {
+  transform: scale(1.1);
+}
+
+.parrafo--index img:hover {
+  transform: scale(1.1);
+  transition: all 0.3s ease 0s;
+}
+
+.calendar div {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  margin: 20px;
+  overflow: scroll;
+}
+
+.musiquita div {
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: column;
+  column-gap: 20px;
+  justify-content: center;
+  align-items: center;
+  padding: 50px;
+  margin: 30px;
+}
+
+#logo-index {
+  padding: 50px;
+  max-width: 400px;
+}
+
+.infra-enojado img {
+  height: 150px;
 }
 
 /*# sourceMappingURL=style.css.map */
