@@ -1,8 +1,19 @@
 footer{
-    background-color: #3C6E71;
-    display:flex;
-    flex-wrap: wrap;
-    justify-items: space-between;
-    padding: 10px;
+    background-color: #ececec;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    padding: 1px 1px;
+    margin: 0 auto;
+    max-width: 900px;
 
+    .redes{
+        display: flex;
+        justify-content: space-around;
+        align-self: center;
+    }
+
+    img{
+        width: 50px;
+        padding: 10px;
+    }
 }

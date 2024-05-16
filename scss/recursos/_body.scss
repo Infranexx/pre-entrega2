@@ -47,3 +47,26 @@ section{
 h1{
     padding: 50px
 }
+
+#logo-index{
+    padding: 20px;
+    width: 400px;
+}
+
+#contacto{
+    min-height: 100vh;
+}
+
+.formulario{
+      
+display: flex;
+justify-content: center;
+align-self: center;
+flex-wrap: wrap;
+border: 5px solid black;
+padding: 100px;
+margin: 100px; 
+h4{
+font-family: "Lato" ;
+}
+}
