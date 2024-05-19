@@ -62,12 +62,12 @@ h1 {
 
 .formulario {
   display: flex;
-  justify-content: space-around;
-  align-self: center;
+  align-items: center;
+  justify-content: center;
   flex-wrap: wrap;
   border: 5px solid black;
-  padding: 100px;
-  margin: 100px;
+  padding: 150px;
+  margin: 20px;
 }
 .formulario h4 {
   font-family: "Lato";
@@ -108,6 +108,8 @@ footer img {
 
 .grid-emotes {
   display: grid;
+  justify-content: center;
+  justify-items: center;
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: repeat(3, 1fr);
   grid-column-gap: 50px;
@@ -167,7 +169,7 @@ footer img {
     grid-area: item4;
   }
 }
-@media (max-width: 320px) {
+@media (max-width: 447px) {
   .grid-emotes {
     display: grid;
     grid-template-columns: 1fr;
@@ -220,7 +222,6 @@ footer img {
   display: flex;
   flex-wrap: nowrap;
   flex-direction: column;
-  column-gap: 20px;
   justify-content: center;
   align-items: center;
   padding: 50px;

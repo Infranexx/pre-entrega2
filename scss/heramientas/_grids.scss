@@ -1,5 +1,7 @@
 .grid-emotes {
     display: grid;
+    justify-content: center;
+    justify-items: center;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(3, 1fr);
     grid-column-gap: 50px;
