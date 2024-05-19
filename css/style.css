@@ -63,7 +63,7 @@ h1 {
 .formulario {
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: space-between;
   flex-wrap: wrap;
   border: 5px solid black;
   padding: 150px;
@@ -196,6 +196,9 @@ footer img {
   }
   .calendar div {
     max-width: 320px;
+  }
+  .formulario {
+    justify-content: center;
   }
 }
 .infra-enojado img:hover {
